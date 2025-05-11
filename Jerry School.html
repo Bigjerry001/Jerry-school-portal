@@ -1,0 +1,77 @@
+<html></html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Jerry School Of Opueh</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+        }
+        .container { 
+            display: flex;
+        } 
+        .sidebar { 
+            background-color: #00b388;
+            color: white;
+            width: 300px;
+            padding: 20px;
+            height: 100vh;
+        }
+        .sidebar h2, .sidebar p {
+            margin: 10px 0;
+        }
+        .menu-item{ 
+            background-color: #2fd8b8;
+            margin: 5px 0;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            color: white; 
+}
+.sidebar .active-user {
+    color: orange;
+    margin-top: 20px;
+}
+.main-content {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+}
+.box { 
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2> BIG JERRY SCHOOL OF OPUEH</h2>
+            <P class="active user">ACTIVE USER:</P>
+            <P><strong> Bablola Jeremiah Kelechi<br>(ND/24/MCT/FT/
+                0028)</strong></P>
+                <button class="menu-item">Home</button>
+                <button class="menu-item">Dashboard</button>
+                <button class="menu-item">Change Password</button>
+                <button class="menu-item">Upload Password</button>
+                <button class="menu-item">Print Bio-Data</button>
+                <button class="menu-item">Print Medical Form</button>
+                <button class="menu-item">Fill Siwes Form</button>
+                <button class="menu-item">Security Print Out</button>
+                <button class="menu-item">Sport Print Out</button>
+</div>
+<div class="main-content">
+    <div class="box">Registration Guide</div>
+    <div class="box">Payment Receipt</div>
+    <div class="box">Payment Summary</div>
+</div>
+    </div>
+</body>
+</html>
